@@ -228,3 +228,64 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     max-width: 40%;
     border-radius: 20px;
 }
+
+.footer .container{
+	max-width: 1500px;
+	
+	margin: auto;
+}
+.footer .container .row .col ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #24262b;
+	padding: 70px 0;
+}
+.footer .container .row {
+	clear: both;
+	display: flex;	
+	flex-wrap: wrap;
+	
+}
+.footer .col{
+	width: 33.33%;
+	padding: 0px 15px;
+	flex: 1;
+}
+.col .sosh{
+	align-items:right;
+}
+
+.col h4{
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+.col ul li a
+{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	padding-bottom: 2px;
+	color: #bbbbbb;
+	display: block;
+	transition: 0.5s;
+}
+.col ul li a:hover{
+	transform: translateX(10px);
+	
+}
+.sosh a i{
+	padding-right: 20px;
+	font-size: 30px;
+	transition: 0.5s;
+}
+.sosh a i:hover{
+	transform: rotate(360deg);
+}
