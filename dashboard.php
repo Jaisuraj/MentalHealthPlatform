@@ -13,6 +13,7 @@ include("auth_session.php");
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
 <section class="header">
@@ -57,6 +58,45 @@ optio,<br> eaque rerum! Provident similique accusantium nemo autem.</p>
 </div>
 </section>
 
+	<footer class="footer">
+<div class="container">
+	<div class="row">
+
+		<div class="col">
+			<h4>title1</h4>
+			<ul>
+				<li><a href="#">list</a></li>
+				<li><a href="#">list</a></li>
+				<li><a href="#">list</a></li>
+				<li><a href="#">list</a></li>
+			</ul>
+		</div>
+
+		<div class="col">
+			<h4>title1</h4>
+			<ul>
+				<li><a href="#">list</a></li>
+				<li><a href="#">list</a></li>
+				<li><a href="#">list</a></li>
+				<li><a href="#">list</a></li>
+			</ul>
+		</div>
+
+		<div class="col">
+			<h4>Follow us</h4>
+			<div class="sosh">
+				<a href=""><i class="fab fa-facebook-f"></i></a>
+				<a href=""><i class="fab fa-instagram"></i></a>
+				<a href=""><i class="fab fa-twitter"></i></a>
+				<a href=""><i class="fab fa-linkedn-in"></i></a>
+			</div>
+		</div>
+
+	</div>
+</div>	
+</footer>
+
+	
 <script type="text/javascript" src="tilt.js"></script>
 <script>
 	VanillaTilt.init(document.querySelectorAll(".glass"), {
